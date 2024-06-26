@@ -5,7 +5,7 @@ import { useGetBlogsQuery } from "@/redux/api/baseApi";
 import { Blog } from "@/types";
 
 const BlogsPage = () => {
-  // const res = await fetch("http://localhost:5000/blogs", {
+  // const res = await fetch("http://localhost:4000/blogs", {
   //   cache: "no-store",
   // });
   // const blogs = await res.json();
@@ -19,10 +19,7 @@ const BlogsPage = () => {
         All Blogs From <span className="text-accent">Blogiz</span>
       </h1>
       <p className="text-xl text-center text-gray-400 w-2/4 mx-auto">
-        <i>
-          Dive into the fascinating world of quantum computing, where unlocking
-          unprecedented computational power.
-        </i>
+        <i>Dive into the fascinating world of quantum computing, where unlocking unprecedented computational power.</i>
       </p>
 
       <div className="grid grid-cols-3 gap-4 my-5">

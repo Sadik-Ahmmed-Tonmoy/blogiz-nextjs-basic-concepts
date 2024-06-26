@@ -2,7 +2,7 @@ import LoadingCard from "@/components/ui/LoadingCard";
 import { Blog } from "@/types";
 
 const BlogLoadingPage = async () => {
-  const res = await fetch("http://localhost:5000/blogs");
+  const res = await fetch("http://localhost:4000/blogs");
   const blogs = await res.json();
   return (
     <div>
