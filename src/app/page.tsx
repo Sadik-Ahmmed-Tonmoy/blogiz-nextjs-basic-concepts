@@ -10,7 +10,7 @@ const HomePage = async () => {
   // console.log(blogs);
   return (
     <>
-      <LatestBlogs blogs={blogs} />
+      <LatestBlogs blogs={blogs} />    
     </>
   );
 };
