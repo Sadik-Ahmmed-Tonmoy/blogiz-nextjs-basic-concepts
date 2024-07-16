@@ -10,7 +10,7 @@ const roboto = Roboto({
   subsets: ["latin"],
   display: "swap",
 });
-           
+       
 export const metadata: Metadata = {
   title: "Blogiz",
   description:
