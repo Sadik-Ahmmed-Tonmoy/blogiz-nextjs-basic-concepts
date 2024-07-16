@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Welcome to Blogiz – where innovation meets imagination in the dynamic realm of technology, offering a thrilling journey through the latest trends and groundbreaking discoveries in the world of tech!",
 };     
-    
+       
 export default function RootLayout({
   children,
 }: Readonly<{
