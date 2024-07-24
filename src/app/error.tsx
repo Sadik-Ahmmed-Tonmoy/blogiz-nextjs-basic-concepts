@@ -18,7 +18,7 @@ const ErrorPage = ({
         onClick={() => reset()}
         className="btn btn-error btn-outline mt-5"
       >
-        Try Again
+        Try Again  
       </button>
     </div>
   );
