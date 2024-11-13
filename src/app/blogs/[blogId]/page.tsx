@@ -17,7 +17,7 @@ export const generateStaticParams = async () => {
 
 const BlogDetailPage = async ({ params }: BlogId) => {
   //   console.log(params);
-  const res = await fetch(`http://localhost:4000/blogs/${params.blogId}`, {
+  const res = await fetch(`http://localhost:4000/blogs/${params.blogId}`, { 
     cache: "no-store",
   });
 
